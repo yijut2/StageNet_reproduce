@@ -15,8 +15,7 @@ N/A.
 Same as above, to acquire the MIMIC-III data, you can either follow the steps provided in https://github.com/YerevaNN/mimic3-benchmarks/ or directly ownload it through our Google Drive using the ID of your desire file/folder. The command is `! gdown --id 1bHdROEaVzmZIJKKtLN2j6-9XVa-S8omC`.
 
 ## Training code + command (if applicable)
-The original command `$python train.py --data_path='./data/' --file_name='trained_model'` allows us to train the StageNet with default setting. It also allows users to specify hyperparameter. To observe our training process and analyze our training, we made the continueTrain argument equal to True, and train the model with different batchsize and epochs.
-`python ./drive/MyDrive/StageNet/train.py --data_path='./data/' --file_name='trained_model' --batch_size=64 --epochs 50 --continueTrain True`
+The original command `$python train.py --data_path='./data/' --file_name='trained_model'` allows us to train the StageNet with default setting. It also allows users to specify hyperparameter. To observe our training process and analyze our training, we made the continueTrain argument equal to True, and train the model with different batchsize and epochs: `python ./drive/MyDrive/StageNet/train.py --data_path='./data/' --file_name='trained_model' --batch_size=64 --epochs 50 --continueTrain True`
 
 ## Pretrained model/weights (if applicable)
 Run the `python ./drive/MyDrive/StageNet/train.py --data_path='./data/' --file_name='trained_model' --batch_size=64 --epochs 50 --continueTrain True`, and the script will automatically generated the best weights and it will be saved as the new file.
