@@ -2,7 +2,7 @@
 The paper "StageNet: Stage-Aware Neural Networks for Health Risk Prediction" proposes a novel stage-aware neural network model (StageNet) for extracting disease stage information from patient data and integrating it into risk prediction. This repository is used to record the progress of paper reproducibility and all the revised models used.
 
 ## Data Download Instruction
-To build benchmark dataset, according to https://github.com/YerevaNN/mimic3-benchmarks/. However, to save your time, we have done this step for you. To quickly access the dataset, you can use Gdown command -- `! gdown --id 1bHdROEaVzmZIJKKtLN2j6-9XVa-S8omC` to download the big dataset through Google Drive.
+To build benchmark dataset, according to https://github.com/YerevaNN/mimic3-benchmarks/. Follow the steps to build the decompensation dataset.
 
 ## Citation
 Junyi Gao, Cao Xiao, Yasha Wang, Wen Tang, Lucas M
@@ -22,13 +22,6 @@ Run the `python ./drive/MyDrive/StageNet/train.py --data_path='./data/' --file_n
 
 ## Table of results
 TBA
-
-
-
-
-
-
-
 
 
 
