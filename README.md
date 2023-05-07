@@ -6,7 +6,7 @@ To build benchmark dataset, according to https://github.com/YerevaNN/mimic3-benc
 
 ## Citation
 Junyi Gao, Cao Xiao, Yasha Wang, Wen Tang, Lucas M
-Glass, and Jimeng Sun. 2020. Stagenet: Stageaware neural networks for health risk prediction. In Proceedings of The Web Conference 2020,
+Glass, and Jimeng Sun. 2020. Stagenet: Stageaware neural networks for health risk prediction. In Proceedings of The Web Conference 2020
 
 ## Dependency
 N/A. 
