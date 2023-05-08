@@ -21,8 +21,4 @@ The original command `$python train.py --data_path='./data/' --file_name='traine
 Run the `python ./drive/MyDrive/StageNet/train.py --data_path='./data/' --file_name='trained_model' --batch_size=64 --epochs 50 --continueTrain True`, and the script will automatically generated the best weights and it will be saved as the new file.
 
 ## Table of results
-TBA
-
-
-
-``
+See the descriptive notebook, we providded the table of results with brief summary.
