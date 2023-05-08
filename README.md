@@ -2,7 +2,7 @@
 The paper "StageNet: Stage-Aware Neural Networks for Health Risk Prediction" proposes a novel stage-aware neural network model (StageNet) for extracting disease stage information from patient data and integrating it into risk prediction. This repository is used to record the progress of paper reproducibility and all the revised models used. (We also created the descriptive notebook for bonus)
 
 ## Data Download Instruction
-To build benchmark dataset, according to https://github.com/YerevaNN/mimic3-benchmarks/. Follow the steps to build the decompensation dataset.
+We do not provide the MIMIC-III data itself. You must acquire the data yourself from https://mimic.physionet.org/. Specifically, download the CSVs. To run decompensation prediction task on MIMIC-III bechmark dataset, you should first build benchmark dataset according to https://github.com/YerevaNN/mimic3-benchmarks/. (The instruction came from https://github.com/v1xerunt/StageNet)
 
 ## Citation
 Junyi Gao, Cao Xiao, Yasha Wang, Wen Tang, Lucas M
